@@ -16,6 +16,6 @@ insert_dashes <- function(){
   num_dashes <- 80 - current_col + 1
 
   # Insert dashes
-  rstudioapi::insertText(paste0(strrep("-", num_dashes), "\n"))
+  rstudioapi::insertText(paste0(strrep("-", num_dashes))
 
 }
